@@ -2,6 +2,10 @@
 
 This application simulates a hypothetical home battery using power input / output data exported from Jemena's portal.
 
+Note that throughout this application the power "generated" is the power that was fed into the grid. This doesn't
+include the power that was generated and used on site since that isn't visible to Jemena and wouldn't affect the
+calculations for a battery.
+
 ## Using the battery simulator
 
 The main class is `BatterySimulator.java`. 
@@ -80,6 +84,7 @@ The program outputs:
       * The money loss from not feeding into the grid
     * The total amount used from the battery rather than the grid
       * The money saved
+    * Note: Percentages are of total power fed into grid in the original data set
   * A summary of the financial stats
     * Total money saved
     * Money saved per day
