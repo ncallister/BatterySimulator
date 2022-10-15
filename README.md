@@ -64,6 +64,9 @@ Provide:
   * The round trip efficiency (as a percentage, 0.0 to 1.0)
   * The percentage to reserve for peak times (copy the example above)
 
+If not known, the storage limit and round trip efficiency can be found for most batteries
+[here](https://www.solarquotes.com.au/battery-storage/comparison-table/).
+
 ### Output
 
 The program outputs:
